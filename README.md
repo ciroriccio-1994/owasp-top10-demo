@@ -72,4 +72,11 @@ http://127.0.0.1:5000/profile?id=2
 Result:
 Even if the logged-in user is ID 1, you can directly access user 2’s data.
 
+## Setup & Run
+pip install -r requirements.txt
+python src/sql_injection.py
+python src/xss_example.py
+python src/idor_example.py
+
+
 
