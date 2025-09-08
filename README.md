@@ -73,10 +73,19 @@ Result:
 Even if the logged-in user is ID 1, you can directly access user 2’s data.
 
 ## Setup & Run
+
+1. Install dependencies:
 pip install -r requirements.txt
+
+2. Run the vulnerable examples:
 python src/sql_injection.py
 python src/xss_example.py
 python src/idor_example.py
+
+3. Run the fixed versions:
+python src/sql_injection_fixed.py
+python src/xss_example_fixed.py
+python src/idor_example_fixed.py
 
 
 
