@@ -17,3 +17,8 @@ This repository contains simple examples of common vulnerabilities from the OWAS
 - Reproduce them in code
 - Apply secure coding practices to mitigate risks
 
+## SQL Injection
+- `src/sql_injection.py`: vulnerable version (string concatenation)
+- `src/sql_injection_fixed.py`: fixed version (parameterized query)
+
+
